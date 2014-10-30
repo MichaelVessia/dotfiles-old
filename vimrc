@@ -12,20 +12,38 @@ Bundle "honza/vim-snippets"
 
 filetype plugin indent on
 syntax on "Syntax highlighting
-set t_Co=256
 set relativenumber " relative line numbers
 set autoindent
-:inoremap jk <Esc>
 set nobackup
 set nowritebackup
 set noswapfile
-
 set ignorecase
 set smartcase
 set incsearch
 set showmatch
 set hlsearch
 
-nnoremap ; :
-vnoremap ; :
-:colorscheme adaryn
+:inoremap jk <Esc>
+
+"set t_Co=256
+"set background=dark
+"highlight Normal ctermbg=NONE
+"highlight nonText ctermbg=NONE
+"
+if &term =~ "xterm"
+	" 256 colors
+	let &t_Co = 256
+	" restore screen after quitting
+	let &t_ti = "\<Esc>7\<Esc>[r\<Esc>[?47h"
+	let &t_te = "\<Esc>[?47l\<Esc>8"
+	if has("terminfo")
+		let &t_Sf = "\<Esc>[3%p1%dm"
+		let &t_Sb = "\<Esc>[4%p1%dm"
+	else
+		let &t_Sf = "\<Esc>[3%dm"
+		let &t_Sb = "\<Esc>[4%dm"
+	endif
+endif
+
+
+colorscheme adaryn
