@@ -23,7 +23,6 @@ set incsearch
 set showmatch
 set hlsearch
 
-<<<<<<< HEAD
 :inoremap jk <Esc>
 
 "set t_Co=256
