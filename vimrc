@@ -23,6 +23,7 @@ set incsearch
 set showmatch
 set hlsearch
 
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 :inoremap jk <Esc>
 
 "set t_Co=256
@@ -46,3 +47,4 @@ if &term =~ "xterm"
 endif
 
 :colorscheme molokai
+
