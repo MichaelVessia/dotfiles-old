@@ -45,5 +45,4 @@ if &term =~ "xterm"
 	endif
 endif
 
-
 :colorscheme molokai
