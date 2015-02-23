@@ -9,6 +9,7 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
+Plugin 'bling/vim-airline'
 
 filetype plugin indent on
 syntax on "Syntax highlighting
@@ -22,6 +23,8 @@ set smartcase
 set incsearch
 set showmatch
 set hlsearch
+
+set laststatus=2
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 :inoremap jk <Esc>
