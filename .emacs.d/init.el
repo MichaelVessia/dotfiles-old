@@ -1,30 +1,40 @@
-(load "package")
-(package-initialize)
+
+;; Set up package manager
+(require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "https://melpa.org/packages/") t)
+(setq package-enable-at-startup nil)
+(package-initialize)
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+(require 'use-package)
 
-(require 'evil)
-(evil-mode t)
+(setq use-package-always-ensure t)
 
-(require 'magit)
-(define-key global-map (kbd "C-c m") 'magit-status)
+;;; Individual package configurations
 
-(require 'linum-relative)
-(global-linum-mode)
+(use-package evil
+  :config (evil-mode t))
+(use-package magit)
+(use-package linum-relative)
+(use-package helm)
+(use-package projectile)
+(use-package flycheck
+  :config 
+  (eval-after-load 'flycheck '(flycheck-clojure-setup))
+  (eval-after-load 'flycheck
+    '(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
+  (add-hook 'after-init-hook #'global-flycheck-mode))
+(use-package diff-hl)
 
-(require 'helm)
+
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
-
-(require 'projectile)
+(global-set-key (kbd "C-c m") 'magit-status)
+(global-linum-mode)
 (projectile-global-mode)
-
-(require 'flycheck)
-(eval-after-load 'flycheck '(flycheck-clojure-setup))
-(add-hook 'after-init-hook #'global-flycheck-mode)
-
-(require 'diff-hl)
 (global-diff-hl-mode)
 
 ;;; esc quits

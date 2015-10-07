@@ -1,0 +1,28 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/mike/books/" . "little_schemer/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/mike/books/little_schemer/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "littleschemer.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mike/books/little_schemer/" (22034 56473 793424 221000) "littleschemer.clj" "../" "#littleschemer.clj#" "./")
+
+ ("/home/mike/books/" (22033 64658 822493 831000) "skiena/" "../" "little_schemer/" "./" ".git/")
+
+ ("/home/mike/" (22034 56457 543315 626000) ".irssi/" "bin/" ".themes/" ".kde4/" "output.csv" "resume.aux" ".zcompdump-Mives-5.0.8" "AUR/" ".dbus/" "OpenVPN/" "screenFetch-2015-08-26_20-50-52.png" "resume/" "#test.c#" ".texlive/" ".xbindkeysrc.scm" ".xsession" ".gem/" "flag1.txt" "books/" ".lyrics/" ".macromedia/" ".viminfo.tmp" ".viminfx.tmp" "screenFetch-2015-08-26_20-58-56.png" ".mean" ".irb-history" ".vim/" ".xmonad/" "virga/" "Music/" ".zcompdump-Mives-5.0.7" ".lein/" ".v8flags.3.28.71.19.mike.json" ".pulse-cookie" ".scala_history" ".cabal/" ".zenmap/" "screenFetch-2015-04-23_21-08-43.png" ".dmrc" ".byebug_hist" "screenFetch-2015-08-26_20-53-36.png" "fonts/" "Documents/" ".viminfy.tmp" "joystickremove.sh" ".local/" "summarizer.frames.json" ".mozilla/" "dotfiles-master.zip" ".eduroam/" "secNotes" "../" "homework/" ".bash_logout" "VirtualBox VMs/" ".steam/" ".adobe/" ".viminfo" ".#test.c" ".gnupg/" ".fonts/" ".steampath" "summarizer.gif" ".xsession-errors" ".calc_history" "Desktop/" ".ncmpcpp/" ".paradoxinteractive/" ".conky/" ".m2/" ".gtkrc-2.0" "2015-08-10-004710_1280x800_scrot.png" ".heroku/" ".subversion/" ".Xdefaults.backup" ".wicd/" ".bundler/" ".esd_auth" ".xinitrc" "wp/" ".zsh_history" ".profile" ".mkshrc" ".bashrc" ".node-gyp/" ".weechat/" "node_modules/" ".netrc" ".dbshell" ".ssh/" ".Xauthority" "screenFetch-2015-04-07_00-11-00.png" ".emacs.d/" "bundle/" "Pictures/" ".Xdefaults" ".gitconfig" "rvm-install" ".viminfz.tmp" ".emacs~" "math.py" ".zshrc" "notify.sh" ".mongorc.js" "./" "musicScript.sh" ".xmobarrc" ".projectile" ".steampid" ".gnome/" ".zcompdump-Mives-5.1.1" ".zlogin" ".zsh-update" "panel.sh" ".mpd/" ".bash_profile" ".emacs" ".icons/" "#.emacs#" ".bash_history" "screenFetch-2015-08-26_20-58-31.png" ".colors" "AdelphiLibraryCalendar/" ".rvm/" ".pry_history" "resume.pdf" "robotics/" ".pki/" ".fehbg" "dotfiles-master/" "colors.pl" "2015-08-29-133040_1280x800_scrot.png" ".gftp/" "Downloads/" "git/" "screenFetch-2015-04-23_21-08-56.png" "screenFetch-2015-04-23_21-09-06.png" ".mysql_history" ".oh-my-zsh/" "helloworld/" "resume.log" "dotfiles/" "screenFetch-2015-03-22_21-19-29.png" "derp" ".wallpapers/" ".cache/" ".config/" ".npm/" "EvenFibonacciNumbers.c" ".Xmodmap" ".moc/" ".lesshst" ".lastpass/" "https___decals.dec.ny.gov_DECALSCitizenWeb_citizenReportHistory.pdf" "code/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
