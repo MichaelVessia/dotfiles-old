@@ -1,7 +1,11 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/mike/Downloads/assn3" . 1079)
+(("/home/mike/git/dotfiles/.emacs.d/init.el" . 837)
+ ("/home/mike/.emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-autoloads.el" . 1159)
+ ("/home/mike/Downloads/assn3 (1)" . 2129)
+ ("/home/mike/homework/database/assn3/writeup.tex" . 266)
+ ("/home/mike/.emacs.d/eshell/alias" . 23)
+ ("/home/mike/Downloads/assn3" . 1079)
  ("/home/mike/.emacs.d/elpa/diff-hl-20150929.1146/diff-hl-autoloads.el" . 4375)
- ("/home/mike/git/dotfiles/.emacs.d/init.el" . 788)
  ("/home/mike/.emacs.d/elpa/use-package-20150926.846/use-package-autoloads.el" . 244)
  ("/home/mike/.emacs.d/elpa/bind-key-20150321.213/bind-key-autoloads.el" . 1501)
  ("/home/mike/.emacs.d/elpa/diminish-20091203.1012/diminish-autoloads.el" . 2246)
