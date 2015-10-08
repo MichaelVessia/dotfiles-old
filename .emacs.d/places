@@ -1,7 +1,16 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/mike/git/dotfiles/.emacs.d/init.el" . 880)
+(("/home/mike/books/little_schemer/littleclj/src/littleclj/core.clj" . 2620)
+ ("/home/mike/git/dotfiles/"
+  (dired-filename . "/home/mike/git/dotfiles/.emacs.d"))
  ("/home/mike/git/dotfiles/.emacs.d/"
   (dired-filename . "/home/mike/git/dotfiles/.emacs.d/init.el"))
+ ("/home/mike/git/dotfiles/.emacs.d/init.el" . 443)
+ ("/home/mike/books/little_schemer/littleclj/test/littleclj/core_test.clj" . 213)
+ ("/home/mike/git/MichaelVessia.github.io/about.md" . 765)
+ ("/home/mike/git/MichaelVessia.github.io/_posts/"
+  (dired-filename . "/home/mike/git/MichaelVessia.github.io/_posts/2015-9-26-vim-to-emacs.md"))
+ ("/home/mike/git/MichaelVessia.github.io/_posts/2015-9-26-vim-to-emacs.md" . 2219)
+ ("/home/mike/git/MichaelVessia.github.io/_posts/2015-10-07-learning-clojure.md" . 1292)
  ("/home/mike/.emacs.d/elpa/smart-mode-line-20150803.338/smart-mode-line-autoloads.el" . 1921)
  ("/home/mike/.emacs.d/elpa/rich-minority-20150930.517/rich-minority-autoloads.el" . 1146)
  ("/home/mike/.emacs.d/elpa/powerline-20150922.1143/powerline-autoloads.el" . 2261)
@@ -17,7 +26,6 @@
  ("/home/mike/.emacs.d/profiles.clj" . 159)
  ("/home/mike/.emacs.d/elpa/flycheck-pos-tip-20140606.510/flycheck-pos-tip-autoloads.el" . 648)
  ("/home/mike/.emacs.d/elpa/popup-20150626.711/popup-autoloads.el" . 224)
- ("/home/mike/books/skiena/binary_search.rb" . 264)
  ("/usr/share/emacs/24.5/lisp/linum.el.gz" . 2447)
  ("/home/mike/.emacs.d/elpa/flycheck-20151004.2018/flycheck-autoloads.el" . 8105)
  ("/home/mike/.emacs.d/elpa/flycheck-clojure-20150831.631/flycheck-clojure-autoloads.el" . 617)

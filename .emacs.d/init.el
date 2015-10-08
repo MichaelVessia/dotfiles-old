@@ -9,6 +9,7 @@
   (package-refresh-contents)
   (package-install 'use-package))
 (require 'use-package)
+(add-to-list 'exec-path "~/bin")
 
 (setq use-package-always-ensure t)
 
@@ -16,6 +17,7 @@
 
 (use-package evil
   :config (evil-mode t))
+(use-package exec-path-from-shell)
 (use-package magit)
 (use-package linum-relative)
 (use-package helm)
