@@ -1,5 +1,10 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/mike/git/dotfiles/.emacs.d/init.el" . 837)
+(("/home/mike/git/dotfiles/.emacs.d/init.el" . 880)
+ ("/home/mike/git/dotfiles/.emacs.d/"
+  (dired-filename . "/home/mike/git/dotfiles/.emacs.d/init.el"))
+ ("/home/mike/.emacs.d/elpa/smart-mode-line-20150803.338/smart-mode-line-autoloads.el" . 1921)
+ ("/home/mike/.emacs.d/elpa/rich-minority-20150930.517/rich-minority-autoloads.el" . 1146)
+ ("/home/mike/.emacs.d/elpa/powerline-20150922.1143/powerline-autoloads.el" . 2261)
  ("/home/mike/.emacs.d/elpa/powerline-evil-20140517.1/powerline-evil-autoloads.el" . 1159)
  ("/home/mike/Downloads/assn3 (1)" . 2129)
  ("/home/mike/homework/database/assn3/writeup.tex" . 266)

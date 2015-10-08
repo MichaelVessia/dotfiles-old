@@ -28,6 +28,7 @@
   (add-hook 'after-init-hook #'global-flycheck-mode))
 (use-package diff-hl)
 (use-package smart-mode-line
+  :init (setq sml/no-confirm-load-theme t)
   :config
   (sml/setup)
   (sml/apply-theme 'dark))
